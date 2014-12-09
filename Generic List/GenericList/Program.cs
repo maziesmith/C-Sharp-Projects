@@ -71,7 +71,7 @@ namespace HelloWorld
                         Console.Write("\nEnter a first name to search for: ");
                         String searchInput = Console.ReadLine();
 
-                        //LINQ used to search for first name contained within our generic collection
+                        //Lambda Expression used to search for first name contained within our generic collection
                         try
                         {
                             var response = peopleList.FindAll(x => x.firstName == searchInput);
