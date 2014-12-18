@@ -1,0 +1,1 @@
+This project is an ASP.NET MVC web application that utilizes WebRTC for P2P Video/Audio streaming all within the browser without the need for plugins. It also supports desktop sharing in Google Chrome via WebRTC over HTTPS, along with a real time chat system operating on SignalR. 
